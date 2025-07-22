@@ -1,0 +1,89 @@
+.maham:hover{
+    background-color: brown;
+    color: yellow;
+}
+.anas:focus{
+    background-color: green;
+    color: white;
+}
+.merab:active{
+    background-color: blue;
+    color: white;
+}
+.sana:visited{
+    background-color: red;
+    color: white;
+}
+.jia:link{
+    background-color: purple;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 30%;
+    /* overflow: scroll; */
+    overflow-x: scroll;
+}
+h2{
+    margin-top: 50%;
+    color: blue;
+}
+h1{
+    margin-left: 50%;
+    color: red;
+}
+h3{
+    margin-right: 50%;
+    color: green;
+}
+h4{
+    margin-bottom: 50%;
+    border: 2px solid brown;
+    padding: 10px;
+    
+}
+h5{
+    margin: 20px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+h6{
+    margin: 30px;
+    border: 2px solid red;
+    padding-right: 10px;
+}
+.mini{
+    margin: 40px;
+    border: 2px solid green;
+    padding-top: 10px;
+}
+.minu{
+    margin: 50px;
+    border: 2px solid blue;
+    padding-bottom: 10px;
+}
+/* li{
+    display: inline;
+    margin-right: 60px;
+    margin-left: 49px;
+}
+li:hover{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline blue;
+    opacity: 0.5 pink;
+    cursor: pointer;
+
+}
+.li{
+    visibility: none;
+} */
+
+.li{
+    list-style-type: lower-alpha;
+    /* list-style-position: inside; */
+    list-style-position: outside;
+
+}
